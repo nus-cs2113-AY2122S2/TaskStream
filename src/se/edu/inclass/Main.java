@@ -11,7 +11,7 @@ import java.util.Locale;
 import static java.util.stream.Collectors.toList;
 
 public class Main {
-    //streams
+    //master
 
     private TaskNameComparator taskNameComparator;
 
