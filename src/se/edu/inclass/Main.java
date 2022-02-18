@@ -84,6 +84,6 @@ public class Main {
         System.out.println("\nPrinting deadlines with stream (sorted)");
         tasks.stream()
                 .filter((t) -> t instanceof Deadline)
-                .sorted((a, b) -> a.getDescription().toLowerCase().compareTo(b.getDescription().toLowerCase()))
+                .sorted((a, b) -> a.getDescription().toLowerCase().compareTo(b.getDescription().toLowerCase()));
     }
 }
